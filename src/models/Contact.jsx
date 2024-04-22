@@ -1,5 +1,5 @@
-import React from "react";
 import Button from "../layouts/Button";
+import PropTypes from "prop-types";
 
 function Contact({ closeForm }) {
   return (
@@ -58,6 +58,10 @@ function Contact({ closeForm }) {
       </div>
     </div>
   );
+}
+
+Contact.propTypes = {
+  closeForm: PropTypes.func,
 };
 
 export default Contact;
