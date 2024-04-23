@@ -43,7 +43,6 @@ function Doctors() {
 
   const settings = {
     accessibility: true,
-    lazyLoad: true,
     dots: true,
     infinite: true,
     speed: 500,
