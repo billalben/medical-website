@@ -86,9 +86,9 @@ function Doctors() {
     <div className=" min-h-screen flex flex-col justify-center gap-8 lg:px-32 px-5 pt-5">
       <div className=" flex flex-col items-center lg:flex-row justify-between mb-10 lg:mb-0">
         <div>
-          <h1 className=" text-4xl font-semibold text-center lg:text-start">
+          <h2 className=" text-4xl font-semibold text-center lg:text-start">
             Our Doctors
-          </h1>
+          </h2>
           <p className=" mt-2 text-center lg:text-start">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
             quidem.
@@ -126,8 +126,8 @@ function Doctors() {
               </div>
 
               <div className=" flex flex-col justify-center items-center">
-                <h1 className=" font-semibold text-xl pt-4">{e.name}</h1>
-                <h3 className=" pt-2">{e.specialties}</h3>
+                <h3 className=" font-semibold text-xl pt-4">{e.name}</h3>
+                <h4 className=" pt-2">{e.specialties}</h4>
               </div>
             </div>
           ))}
